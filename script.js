@@ -43,7 +43,7 @@ function renderCards(data) {
     let rateContent
     if(Ratings.length > 1) {
         
-        const tomato = filmInfo.ratings[1].Value
+        const tomato = Ratings[1].Value
         const rateTomato = `<span class="imdb-logo">IMDb</span>${imdbRating} <span>🍅</span>${tomato}`
         rateContent = rateTomato
     }else {
