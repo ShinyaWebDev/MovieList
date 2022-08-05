@@ -105,4 +105,3 @@ function search(){
 searchBtn.addEventListener("click", search)
 searchLogoBtn.addEventListener("click", search)
 searchInput.addEventListener("click", search)
-searchInput.addEventListener('keypress', search)
